@@ -1,0 +1,3 @@
+The documented Android fragment samples ([FragmentBasics](http://developer.android.com/training/basics/fragments/fragment-ui.html), [NewsReader](http://developer.android.com/training/multiscreen/adaptui.html)) violate core principles of object oriented design.  There are redundant conditionals to establish the currently showing view type, tightly coupling the `FragmentActivity` with the view types and fragment types.
+
+The purpose of this project is to demonstrate how `Fragments` can be implemented in an object-oriented fashion such that the views and fragments aren't tightly coupled to the `FragmentActivity`.
